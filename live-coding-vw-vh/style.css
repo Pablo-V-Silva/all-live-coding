@@ -5,9 +5,13 @@
 }
 
 header {
-    background-color: lightgray;
+    background-color: gray;
     height: 100px;
+    width: 100%;
     text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 nav li {
@@ -19,4 +23,14 @@ nav li {
 
 .logo img {
     vertical-align: middle;
+}
+/* /header */
+
+main {
+    margin-top: 5rem;
+    padding: 0 1rem;
+}
+
+p {
+    padding: 5rem 0;
 }
