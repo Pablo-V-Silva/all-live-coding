@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.debug main {
+    background-color:cadetblue;
+    height: 700px;
+}
+
+.debug .video {
+    background-color: rgb(209, 148, 104);
+    height: 100%;
+}
+
+.debug .correlati {
+    background-color: rgb(101, 255, 255);
+    height: 100%;
+}
+
+/* /debug */
+
+.video, .correlati {
+    float: left;
+}
+
+main {
+    width:70%;
+    margin: 1rem auto;
+}
+
+.video {
+    width: 70%;
+    position: relative;
+}
+
+.video .galaxy{
+    width: 100%;
+    height: 100%;
+}
+
+.correlati {
+    width: 30%;
+}
+
+.controlli {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+
+}
