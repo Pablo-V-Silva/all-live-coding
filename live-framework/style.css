@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+
+.container {
+    color: white;
+}
+
+.row {
+    display: flex;
+    padding: 1rem;
+}
